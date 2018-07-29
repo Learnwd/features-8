@@ -1,0 +1,62 @@
+/*start of features 8*/
+.features-8 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #ffffff;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    color: #141414;
+}
+
+.features-8 .img-bg {
+    background: url("https://i.imgur.com/iYIaSCZ.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Text */
+.features-8 h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.625rem;
+}
+
+.features-8 h3 {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.features-8 h4 {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.features-8 p {
+    font-size: 1rem;
+}
+
+.features-8 .fa {
+    font-size: 2rem !important;
+    margin-bottom: .5em;
+    margin-top: .3em;
+    color: #f44336;
+}
+
+@media (min-width: 992px) {
+    .features-8 .img-bg {
+        height: 800px;
+    }
+}
+
+@media (min-width: 768px) {
+    .features-8 h3 {
+        width: 75%;
+    }
+
+    .features-8 p {
+        width: 75%;
+    }
+}
+/*end of features 8*/
